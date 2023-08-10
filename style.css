@@ -1,0 +1,448 @@
+    body {
+        background-color:#f8f9fa ;
+        font-family: Inter,sans-serif !important;
+		color: black;
+    }
+
+  
+    .navbar-brand span{
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+    }
+
+    .navbar-nav.ml-auto li a {
+        text-align: center;
+    }
+
+  
+
+    .dropdowns-menu{
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        margin:0px;
+        padding: 0px;
+    }
+
+	.align_but_cen, .align_but_cen:focus {
+		padding: .5rem 1rem;
+		background: white;
+		border: 0px;
+	}
+
+	#demo {
+		display: none;
+	}
+
+	.dropbtn, .for-ssam-size {
+		/* background-color: #04AA6D; */
+		color: black;
+		padding: 10px 30px;
+		/* font-size: 16px; */
+		border: 0px;
+		background: white;
+	}
+	  
+	  .dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	  }
+	  
+	  .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: #ddd;}
+	  
+	  .dropdown:hover .dropdown-content {display: block;}
+	  
+	  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+	  .btn.nav-val {
+		background: #61dabf;
+		color: white;
+		padding: 10px 30px;
+	}
+
+
+.first {
+    margin-top: 100px;
+}
+
+.col-md-6.first-sec-css h1 {
+	font-size: 7.5em !important;
+	font-weight: bold;
+	color: black;
+}
+
+.col-md-6.first-sec-css h4 {
+	color: black;
+	font-size: 31px;
+	font-weight: 600;
+}
+
+.col-md-6.first-sec-css p {
+	color: black;
+	font-weight: 600;
+	font-size: 22px;
+	text-align: justify;
+}
+
+.col-md-6.first-sec-css h1, .col-md-6.first-sec-css h4, .col-md-6.first-sec-css p {
+	margin: 37px 0px;
+}
+
+.btn.set-white {
+	background-color: #f8f9fa;
+}
+
+.btn-first, .btn-first:hover {
+	background-color: #05c99b;
+}
+
+.col-md-6.first-sec-css button {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.for-nav-bar {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: white !important;
+	/* background-color: black !important; */
+	z-index: 999;
+}
+
+
+
+@media only screen and (max-width: 1146px) {
+	.col-md-6.first-sec-css h1, .col-md-6.first-sec-css h4, .col-md-6.first-sec-css p {
+		 margin: 20px;
+	}
+
+	.col-md-6.first-sec-css h1 {
+		font-size: 5.5em !important;
+		font-weight: bold;
+		color: black;
+	}
+  }
+
+  @media only screen and (min-width: 768px)and (max-width: 937px) {
+	.col-md-6.first-sec-css h1, .col-md-6.first-sec-css h4, .col-md-6.first-sec-css p {
+		 margin: 15px;
+	}
+
+	.col-md-6.first-sec-css h1 {
+		font-size: 3.5em !important;
+		font-weight: bold;
+		color: black;
+	}
+  }
+
+/*------------- section two style start ---*/
+
+.card-body.style-for-card h5 i {
+	padding: 10px;
+	border-radius: 50px;
+	font-size: 15px;
+	background-color: white;
+}
+
+.card-body.style-for-card h5  {
+	
+	font-weight: 600;
+}
+
+.card {
+	border-radius: 12px;
+	border: 1px solid var(--theme-ui-colors-outline,#e8e8e8);
+	padding: 1rem;
+	background-color: #f7f7fa !important;
+}
+
+.card:hover {
+   
+        transition: box-shadow .2s ease;
+        box-shadow: 0 8px 30px rgb(0 0 0/12%);
+    
+}
+
+.sec-two-cards, .sec-three-yt, .sec-4-content, .sec-5-content, .sec-6-content{
+	margin: 150px 0px;
+}
+
+/*------------- section two style end ---*/
+
+
+/*------------- section three style start ---*/
+.sec-3-media {
+	margin: 0px 20px;
+	font-size: 22px;
+}
+
+.sec-3-a, .sec-3-a:hover {
+    text-decoration: none;
+    color:black;
+}
+.sec-3-a p {
+	margin: 10px 0px;
+}
+/*------------- section three style end      ---*/
+
+/*------------- section 4 style start ---*/
+/*.stroke-hero-4 {
+	position: absolute;
+	right: 0;
+	width: 400px;
+	margin-right: -190px;
+	opacity: .2;
+	z-index: -10;
+	margin-top: -50px;
+	stroke: #80808000;
+	color: var(--stroke-hero-4-color);
+}*/
+
+.stroke-hero-4 {
+	/* position: absolute; */
+	right: 0;
+	width: 400px;
+	margin-right: -190px;
+	opacity: 0.1;
+	z-index: -10;
+	margin-top: -50px;
+	stroke: #80808000;
+	color: var(--stroke-hero-4-color);
+	/*  */
+	float: right !important;
+	margin-top: auto;
+}
+
+.contentt{
+	overflow: hidden;
+
+}
+
+
+
+.sec-4-h1 h1 {
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.sec-4-h1 p {
+	color: grey;
+}
+.container-fluid.sec-4-h1 h3 {
+	margin-bottom: 20px;
+}
+
+/*------------- section 4 style end      ---*/
+
+
+/*------------- section 5 style start ---*/
+
+.stroke-hero {
+	color: #49a092;
+	opacity: .5;
+	position: absolute;
+	height: 230px;
+	left: -50px;
+	top: -100px;
+}
+
+.sec-5-content {
+	background-color: #ddf7f1;
+	
+	border-radius: 0px 100px 0px 100px;
+}
+
+.sec-5-h1 h2 {
+	margin-top: 100px;
+	color: black;
+}
+
+.sec-5-h1 hr {
+	border: 1px solid black;
+}
+
+/*------------- section 5 style end      ---*/
+
+
+
+/*------------- section 6 style start ---*/
+
+.sec-6-content {
+	background-color: #f7f7fa;
+}
+.contentt6 h2,.contentt6 h4 {
+	font-weight: 600;
+	color: black;
+}
+.contentt6 h2 {
+	margin-bottom: 50px;
+}
+.hidden {
+	display: none;
+}
+.for-3-lines-below-sec-6 h4 {
+	
+	display: inline-block;
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 1043px) {
+	.for-3-lines-below-sec-6 h4 {
+	  font-size: 20px;
+	}
+  }
+
+  @media only screen and (max-width: 915px) and (min-width: 767px) {
+	.for-3-lines-below-sec-6 h4 {
+	  font-size: 16px;
+	  margin-left: 10px;
+	}
+  }
+
+.for-3-lines-below-sec-6 i {
+	border-radius: 50%;
+	background-color: white;
+	padding: 10px;
+}
+
+/*------------- section 6 style end      ---*/
+
+
+/*------------- section 7 style start ---*/
+
+.sec-7-content {
+	text-align: center;
+	background-color: white;
+	border-radius: 0px 100px;
+	font-weight: 500;
+	
+}
+
+.contentt7 button {
+	
+	font-weight: 500;
+}
+
+.contentt7 h1{
+	margin-top: 50px;
+}
+
+.responsive-sec-7-content {
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+}
+/*------------- section 7 style end      ---*/
+
+/*------------- section 8 style start ---*/
+
+.contentt8 button {
+	padding: 14px;
+	background-color: #61dabf;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.contentt8 button:hover {
+	background: #05c99b;
+}
+.contentt8 {
+	text-align: center;
+}
+
+@media only screen and (max-width: 993px) {
+	.sec-8-h1 h1 {
+	  font-size: 22px;
+	  margin-top: 18px;
+	}
+  }
+  @media only screen and (max-width: 768px) {
+	.sec-8-h1 h1 {
+	  
+	  margin-bottom: 18px;
+	}
+  }
+
+/*------------- section 8 style end      ---*/
+
+/*------------- section 9 style start ---*/
+.test {
+	padding: 20px;
+	border: 4px solid #f0f0f2;
+	border-radius: 20px;
+}
+
+.sec-8-style-discord {
+	text-decoration: none;
+	color: black;
+}
+
+.sec-8-style-discord:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.col-md-4.sec-9-h1 p {
+	font-weight: bold;
+}
+
+.test {
+	padding: 20px;
+	border: 4px solid #f0f0f2;
+	border-radius: 20px;
+}
+
+.row.landing-pag h5 {
+	color: black;
+	font-size: 20px;
+}
+
+.row.landing-pag  {
+	color: gray;
+	font-size: 15px;
+}
+/*------------- section 9 style end      ---*/
+
+/*------------- click to top button css start ---*/
+#scroll {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #05c99b;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	width:50px;
+}
+  
+  #scroll:hover {
+	background-color: #555;
+  }
+
+
+/*------------- click to top button css end      ---*/
